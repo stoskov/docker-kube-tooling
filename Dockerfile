@@ -1,6 +1,6 @@
 FROM microsoft/azure-cli:2.0.26
 
-LABEL version="1.1"
+LABEL version="1.2"
 
 ### Install docker ------------
 
