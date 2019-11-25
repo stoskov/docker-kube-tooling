@@ -25,7 +25,8 @@ RUN set -ex; \
 # Connecting to download.docker.com (54.230.87.253:443)
 # wget: error getting response: Connection reset by peer
 	apk add --no-cache --virtual .fetch-deps \
-		curl \
+		curl-dev \
+    curl \
 		tar \
 	; \
 	\
