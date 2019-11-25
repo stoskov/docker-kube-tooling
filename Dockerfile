@@ -126,7 +126,7 @@ RUN apk add --no-cache --virtual .build-deps-yarn curl gnupg tar \
 
 ### Install kubectl ------------
 
-ADD https://storage.googleapis.com/kubernetes-release/release/v1.9.0/bin/linux/amd64/kubectl /usr/local/bin/kubectl
+ADD https://storage.googleapis.com/kubernetes-release/release/v1.12.8/bin/linux/amd64/kubectl /usr/local/bin/kubectl
 
 RUN set -x && \
     apk add --no-cache curl ca-certificates && \
